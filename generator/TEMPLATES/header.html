@@ -1,0 +1,85 @@
+<header id="site-header" class="fixed-top">
+    <section class="w3l-header-4">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <h1>
+                    <a class="navbar-brand" href="{{ link_to_homepage }}">
+                        <img src="assets/images/logo.png" alt="DComplex">
+                    </a>
+                </h1>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="fa icon-expand fa-bars"></span>
+                    <span class="fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-lg-auto">
+                        <li class="nav-item{% if url == 'index' %} active{% endif %}">
+                            <a class="nav-link" href="{{ link_to_homepage }}">Home </a>
+                        </li>
+                        <li class="nav-item{% if url == 'about' %} active{% endif %}">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item{% if url == 'services' %} active{% endif %}">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item{% if url == 'contact' %} active{% endif %}">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav search-right mt-lg-0 mt-2">
+                        <li class="nav-item mr-3" title="Search"><a href="#search" class="btn search-search">
+                                <span class="fa fa-search" aria-hidden="true"></span></a></li>
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-primary btn-style d-none d-lg-block btn-style mr-2">{{ email }}</a>
+                        </li>
+                    </ul>
+
+                    <!-- //toggle switch for light and dark theme -->
+                    <!-- search popup -->
+                    <div id="search" class="pop-overlay">
+                        <div class="popup">
+                            <form action="#" method="GET" class="d-sm-flex">
+                                <input type="search" placeholder="Search..." name="search" required="required"
+                                    autofocus>
+                                <button type="submit">Search</button>
+                                <a class="close" href="#url">&times;</a>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /search popup -->
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+    </section>
+</header>
+{% if url != 'index' %}
+  <!-- about breadcrumb -->
+  <section class="w3l-about-breadcrumb text-left">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-3">
+      <div class="container grid-breadcrumb">
+        <ul class="breadcrumbs-custom-path mt-md-2">
+          <li><a href="{{ link_to_homepage }}">Home</a></li>
+          <li class="active"><span class="fa fa-angle-double-right mx-2" aria-hidden="true"></span> {{ url }} </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- //about breadcrumb -->
+{% endif %}
