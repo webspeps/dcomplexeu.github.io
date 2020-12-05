@@ -65,7 +65,7 @@ class Page(object):
 
 
 pages = [
-    Page(title="DComplex: Industrial solutions",
+    Page(title="DComplex Czechia: Industrial solutions",
          keywords="automation, machine vision, production",  # noqa: E501
          description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
          url="index",
@@ -73,7 +73,7 @@ pages = [
          language="en",
          last_mod=datetime.datetime(2020, 12, 5)
          ),
-    Page(title="DComplex: About us",
+    Page(title="DComplex Czechia: About us",
          keywords="automation, machine vision, production",  # noqa: E501
          description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
          url="about",
@@ -81,7 +81,7 @@ pages = [
          language="en",
          last_mod=datetime.datetime(2020, 12, 5)
          ),
-    Page(title="DComplex: Services",
+    Page(title="DComplex Czechia: Services",
          keywords="automation, machine vision, production",  # noqa: E501
          description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
          url="services",
@@ -89,7 +89,7 @@ pages = [
          language="en",
          last_mod=datetime.datetime(2020, 12, 5)
          ),
-    Page(title="DComplex: Contact",
+    Page(title="DComplex Czechia: Contact",
          keywords="automation, machine vision, production",  # noqa: E501
          description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
          url="contact",
