@@ -71,7 +71,7 @@ pages = [
          url="index",
          content_file='page_home.html',
          language="en",
-         last_mod=datetime.datetime(2020, 12, 5)
+         last_mod=datetime.datetime(2020, 12, 6)
          ),
     Page(title="DComplex Czechia: About us",
          keywords="automation, machine vision, production",  # noqa: E501
@@ -79,7 +79,7 @@ pages = [
          url="about",
          content_file='page_about.html',
          language="en",
-         last_mod=datetime.datetime(2020, 12, 5)
+         last_mod=datetime.datetime(2020, 12, 6)
          ),
     Page(title="DComplex Czechia: Services",
          keywords="automation, machine vision, production",  # noqa: E501
@@ -87,7 +87,7 @@ pages = [
          url="services",
          content_file='page_services.html',
          language="en",
-         last_mod=datetime.datetime(2020, 12, 5)
+         last_mod=datetime.datetime(2020, 12, 6)
          ),
     Page(title="DComplex Czechia: Contact",
          keywords="automation, machine vision, production",  # noqa: E501
@@ -95,7 +95,7 @@ pages = [
          url="contact",
          content_file='page_contact.html',
          language="en",
-         last_mod=datetime.datetime(2020, 12, 5)
+         last_mod=datetime.datetime(2020, 12, 6)
          )
 ]
 
