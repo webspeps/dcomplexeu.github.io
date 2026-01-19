@@ -1,0 +1,322 @@
+b.d-zero,
+b.d-one,
+b.d-two,
+b.d-three,
+b.d-four,
+b.d-five,
+b.d-six,
+b.d-seven,
+b.d-eight,
+b.d-nine,
+b.d-at,
+b.d-plus,
+b.d-dot,
+b.d-comma {
+  font-weight: normal;
+}
+.d-plus:before {
+  content: "+";
+}
+.d-at:before {
+  content: "@";
+}
+.d-dot:before {
+  content: ".";
+}
+.d-comma:before {
+  content: ",";
+}
+.d-zero:before {
+  content: "0";
+}
+.d-one:before {
+  content: "1";
+}
+.d-two:before {
+  content: "2";
+}
+.d-three:before {
+  content: "3";
+}
+.d-four:before {
+  content: "4";
+}
+.d-five:before {
+  content: "5";
+}
+.d-six:before {
+  content: "6";
+}
+.d-seven:before {
+  content: "7";
+}
+.d-eight:before {
+  content: "8";
+}
+.d-nine:before {
+  content: "9";
+}
+
+/* Letters */
+
+b.ltr-u-A:before {
+  content: "A";
+}
+
+b.ltr-u-B:before {
+  content: "B";
+}
+
+b.ltr-u-C:before {
+  content: "C";
+}
+
+b.ltr-u-D:before {
+  content: "D";
+}
+
+b.ltr-u-E:before {
+  content: "E";
+}
+
+b.ltr-u-F:before {
+  content: "F";
+}
+
+b.ltr-u-G:before {
+  content: "G";
+}
+
+b.ltr-u-H:before {
+  content: "H";
+}
+
+b.ltr-u-I:before {
+  content: "I";
+}
+
+b.ltr-u-J:before {
+  content: "J";
+}
+
+b.ltr-u-K:before {
+  content: "K";
+}
+
+b.ltr-u-L:before {
+  content: "L";
+}
+
+b.ltr-u-M:before {
+  content: "M";
+}
+
+b.ltr-u-N:before {
+  content: "N";
+}
+
+b.ltr-u-O:before {
+  content: "O";
+}
+
+b.ltr-u-P:before {
+  content: "P";
+}
+
+b.ltr-u-Q:before {
+  content: "Q";
+}
+
+b.ltr-u-R:before {
+  content: "R";
+}
+
+b.ltr-u-S:before {
+  content: "S";
+}
+
+b.ltr-u-T:before {
+  content: "T";
+}
+
+b.ltr-u-U:before {
+  content: "U";
+}
+
+b.ltr-u-V:before {
+  content: "V";
+}
+
+b.ltr-u-W:before {
+  content: "W";
+}
+
+b.ltr-u-X:before {
+  content: "X";
+}
+
+b.ltr-u-Y:before {
+  content: "Y";
+}
+
+b.ltr-u-Z:before {
+  content: "Z";
+}
+
+b.ltr-l-a:before {
+  content: "a";
+}
+
+b.ltr-l-b:before {
+  content: "b";
+}
+
+b.ltr-l-c:before {
+  content: "c";
+}
+
+b.ltr-l-d:before {
+  content: "d";
+}
+
+b.ltr-l-e:before {
+  content: "e";
+}
+
+b.ltr-l-f:before {
+  content: "f";
+}
+
+b.ltr-l-g:before {
+  content: "g";
+}
+
+b.ltr-l-h:before {
+  content: "h";
+}
+
+b.ltr-l-i:before {
+  content: "i";
+}
+
+b.ltr-l-j:before {
+  content: "j";
+}
+
+b.ltr-l-k:before {
+  content: "k";
+}
+
+b.ltr-l-l:before {
+  content: "l";
+}
+
+b.ltr-l-m:before {
+  content: "m";
+}
+
+b.ltr-l-n:before {
+  content: "n";
+}
+
+b.ltr-l-o:before {
+  content: "o";
+}
+
+b.ltr-l-p:before {
+  content: "p";
+}
+
+b.ltr-l-q:before {
+  content: "q";
+}
+
+b.ltr-l-r:before {
+  content: "r";
+}
+
+b.ltr-l-s:before {
+  content: "s";
+}
+
+b.ltr-l-t:before {
+  content: "t";
+}
+
+b.ltr-l-u:before {
+  content: "u";
+}
+
+b.ltr-l-v:before {
+  content: "v";
+}
+
+b.ltr-l-w:before {
+  content: "w";
+}
+
+b.ltr-l-x:before {
+  content: "x";
+}
+
+b.ltr-l-y:before {
+  content: "y";
+}
+
+b.ltr-l-z:before {
+  content: "z";
+}
+.ltr-u-A,
+.ltr-u-B,
+.ltr-u-C,
+.ltr-u-D,
+.ltr-u-E,
+.ltr-u-F,
+.ltr-u-G,
+.ltr-u-H,
+.ltr-u-I,
+.ltr-u-J,
+.ltr-u-K,
+.ltr-u-L,
+.ltr-u-M,
+.ltr-u-N,
+.ltr-u-O,
+.ltr-u-P,
+.ltr-u-Q,
+.ltr-u-R,
+.ltr-u-S,
+.ltr-u-T,
+.ltr-u-U,
+.ltr-u-V,
+.ltr-u-W,
+.ltr-u-X,
+.ltr-u-Y,
+.ltr-u-Z,
+.ltr-l-a,
+.ltr-l-b,
+.ltr-l-c,
+.ltr-l-d,
+.ltr-l-e,
+.ltr-l-f,
+.ltr-l-g,
+.ltr-l-h,
+.ltr-l-i,
+.ltr-l-j,
+.ltr-l-k,
+.ltr-l-l,
+.ltr-l-m,
+.ltr-l-n,
+.ltr-l-o,
+.ltr-l-p,
+.ltr-l-q,
+.ltr-l-r,
+.ltr-l-s,
+.ltr-l-t,
+.ltr-l-u,
+.ltr-l-v,
+.ltr-l-w,
+.ltr-l-x,
+.ltr-l-y,
+.ltr-l-z {
+  font-weight: normal;
+}
