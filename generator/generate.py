@@ -5,10 +5,12 @@ from jinja2 import Environment, FileSystemLoader
 
 from dataclasses import dataclass
 
+from info_hider import info_hider
+
 PATH_TO_TEMPLATES = Path('TEMPLATES/')
 PATH_TO_RESOURCES = Path('../generator/RESOURCES/')
 PATH_TO_OUTPUT = Path('../docs/')
-URL_ROOT = "https://dcomplex.eu/"
+URL_ROOT = "https://cz-manufacturing.org/"
 
 link_to_homepage = "/"  # TODO: always / in production
 html_file_suffix = ".html"
@@ -23,8 +25,8 @@ class Page(object):
     url: str
     language: str
     last_mod: datetime.datetime
-    phone = "+420 725 852 954"  # TODO: Change
-    email = "info@dcomplex.eu"  # TODO: Change
+    phone = info_hider("+420 608 215 942")  # TODO: Change
+    email = info_hider("info@cz-manufacturing.org")  # TODO: Change
 
     def keys(self):
         """Get keys that allows conversion of this class to dictionary.
@@ -65,7 +67,7 @@ class Page(object):
 
 
 pages = [
-    Page(title="DComplex Czechia: Industrial solutions",
+    Page(title="CZ Manufacturing: Industrial solutions",
          keywords="automation, machine vision, production",  # noqa: E501
          description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
          url="index",
@@ -73,7 +75,7 @@ pages = [
          language="en",
          last_mod=datetime.datetime(2020, 12, 6)
          ),
-    Page(title="DComplex Czechia: About us",
+    Page(title="CZ Manufacturing: About us",
          keywords="automation, machine vision, production",  # noqa: E501
          description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
          url="about",
@@ -81,7 +83,7 @@ pages = [
          language="en",
          last_mod=datetime.datetime(2020, 12, 6)
          ),
-    Page(title="DComplex Czechia: Services",
+    Page(title="CZ Manufacturing: Services",
          keywords="automation, machine vision, production",  # noqa: E501
          description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
          url="services",
@@ -89,7 +91,7 @@ pages = [
          language="en",
          last_mod=datetime.datetime(2020, 12, 6)
          ),
-    Page(title="DComplex Czechia: Contact",
+    Page(title="CZ Manufacturing: Contact",
          keywords="automation, machine vision, production",  # noqa: E501
          description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
          url="contact",
