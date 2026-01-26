@@ -7,9 +7,8 @@
                         <img src="assets/images/logo.png" alt="CZ Manufacturing">
                     </a>
                 </h1>
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="fa icon-expand fa-bars"></span>
                     <span class="fa icon-close fa-times"></span>
                 </button>
@@ -33,12 +32,13 @@
                         <li class="nav-item mr-3" title="Search"><a href="#search" class="btn search-search">
                                 <span class="fa fa-search" aria-hidden="true"></span></a></li>
                         <li class="nav-item">
-                            <a href="contact.html" class="btn btn-primary btn-style d-none d-lg-block btn-style mr-2">Mail</a>
+                            <a href="contact.html"
+                                class="btn btn-primary btn-style d-none d-lg-block btn-style mr-2">Mail</a>
                         </li>
                     </ul>
 
-                    <!-- //toggle switch for light and dark theme -->
-                    <!-- search popup -->
+                    {# //toggle switch for light and dark theme #}
+                    {# search popup #}
                     <div id="search" class="pop-overlay">
                         <div class="popup">
                             <form action="#" method="GET" class="d-sm-flex">
@@ -49,9 +49,9 @@
                             </form>
                         </div>
                     </div>
-                    <!-- /search popup -->
+                    {# /search popup #}
                 </div>
-                <!-- toggle switch for light and dark theme -->
+                {# toggle switch for light and dark theme #}
                 <div class="mobile-position">
                     <nav class="navigation">
                         <div class="theme-switch-wrapper">
@@ -70,16 +70,17 @@
     </section>
 </header>
 {% if url != 'index' %}
-  <!-- about breadcrumb -->
-  <section class="w3l-about-breadcrumb text-left">
+{# about breadcrumb #}
+<section class="w3l-about-breadcrumb text-left">
     <div class="breadcrumb-bg breadcrumb-bg-about py-3">
-      <div class="container grid-breadcrumb">
-        <ul class="breadcrumbs-custom-path mt-md-2">
-          <li><a href="{{ link_to_homepage }}">Home</a></li>
-          <li class="active"><span class="fa fa-angle-double-right mx-2" aria-hidden="true"></span> {{ url }} </li>
-        </ul>
-      </div>
+        <div class="container grid-breadcrumb">
+            <ul class="breadcrumbs-custom-path mt-md-2">
+                <li><a href="{{ link_to_homepage }}">Home</a></li>
+                <li class="active"><span class="fa fa-angle-double-right mx-2" aria-hidden="true"></span> {{ url }}
+                </li>
+            </ul>
+        </div>
     </div>
-  </section>
-  <!-- //about breadcrumb -->
+</section>
+{# //about breadcrumb #}
 {% endif %}

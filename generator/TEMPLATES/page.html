@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>{{ title }}</title>
-	<meta name="keywords" content="{{ keywords }}" />
+    <meta name="keywords" content="{{ keywords }}" />
     <meta name="description" content="{{ description }}">
 
     <link href="//fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -13,11 +14,12 @@
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link rel="stylesheet" href="assets/css/hidder.css">
 </head>
+
 <body>
-	{% include "header.html" %}
+    {% include "header.html" %}
     {% include content_file %}
 
-    <!-- footer-28 block -->
+    {# footer-28 block #}
     <section class="w3l-footer">
         <footer class="footer-28 py-5">
             <div class="container py-md-5">
@@ -29,23 +31,24 @@
                         <div class="col-lg-6 fotter-gd-right">
                             <div class="ft-grid">
                                 <h5>
-                                    <span class="text-content"> Call us to consider your possibilities </span>
-                                    <span class="fa fa-phone mr-3" aria-hidden="true"></span>{{ phone }}</span>
+                                    <span class="text-content"> Write to us to expand your possibilities </span>
+                                    <span class="fa fa-envelope mr-3" aria-hidden="true"></span>{{ email }}</span>
                                 </h5>
                             </div>
                         </div>
                     </div>
 
                     <h2><a class="navbar-brand" href="{{ link_to_homepage }}">
-                            CZ Manufacturing<span> Prague</span>
+                            CZ Manufacturing<span> Solutions</span>
                         </a></h2>
-                    <p class="f-para mt-3">We can help you with the automation of processes in your plant and increase efficiency of your production.</p>
+                    <p class="f-para mt-3">We can help you with the automation of processes in your plant and increase
+                        efficiency of your production.</p>
                 </div>
             </div>
             <div class="midd-footer-28 align-center mt-lg-0 mt-4">
                 <p class="copy-footer-28 text-center"> &copy; 2026 CZ Manufacturing. All Rights Reserved.</p>
             </div>
-            <!-- move top -->
+            {# move top #}
             <button onclick="topFunction()" id="movetop" title="Go to top">
                 <span class="fa fa-angle-up"></span>
             </button>
@@ -69,18 +72,18 @@
                     document.documentElement.scrollTop = 0;
                 }
             </script>
-            <!-- /move top -->
+            {# /move top #}
         </footer>
 
-        <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
+        <script src="assets/js/jquery-3.3.1.min.js"></script> {# Common jquery plugin #}
 
-        <script src="assets/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
-        <!-- responsive tabs -->
+        <script src="assets/js/theme-change.js"></script>{# theme switch js (light and dark)#}
+        {# responsive tabs #}
         <script src="assets/js/jquery-1.9.1.min.js"></script>
 
         <script src="assets/js/easyResponsiveTabs.js"></script>
 
-        <!--Plug-in Initialisation-->
+        {#Plug-in Initialisation#}
         <script type="text/javascript">
             $(document).ready(function () {
                 //Horizontal Tab
@@ -99,32 +102,32 @@
                 });
             });
         </script>
-       <!-- //counter-->
-    <script src="assets/js/owl.carousel.js"></script><!-- owl carousel -->
-    <!-- script for tesimonials carousel slider -->
-    <script>
-        $(document).ready(function () {
-            $("#owl-demo1").owlCarousel({
-                loop: true,
-                margin: 20,
-                nav: false,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    1000: {
-                        items: 1,
-                        nav: false,
-                        loop: false
+        {# //counter#}
+        <script src="assets/js/owl.carousel.js"></script>{# owl carousel #}
+        {# script for tesimonials carousel slider #}
+        <script>
+            $(document).ready(function () {
+                $("#owl-demo1").owlCarousel({
+                    loop: true,
+                    margin: 20,
+                    nav: false,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: false
+                        },
+                        1000: {
+                            items: 1,
+                            nav: false,
+                            loop: false
+                        }
                     }
-                }
+                })
             })
-        })
-    </script>
-    <!-- //script for tesimonials carousel slider -->
-        <!--/MENU-JS-->
+        </script>
+        {# //script for tesimonials carousel slider #}
+        {#/MENU-JS#}
         <script>
             $(window).on("scroll", function () {
                 var scroll = $(window).scrollTop();
@@ -151,9 +154,9 @@
                 });
             });
         </script>
-        <!--//MENU-JS-->
+        {#//MENU-JS#}
 
-        <!-- disable body scroll which navbar is in active -->
+        {# disable body scroll which navbar is in active #}
         <script>
             $(function () {
                 $('.navbar-toggler').click(function () {
@@ -161,10 +164,11 @@
                 })
             });
         </script>
-        <!-- //disable body scroll which navbar is in active -->
+        {# //disable body scroll which navbar is in active #}
 
-        <!--bootstrap-->
+        {#bootstrap#}
         <script src="assets/js/bootstrap.min.js"></script>
-        <!-- //bootstrap-->
+        {# //bootstrap#}
 </body>
+
 </html>
